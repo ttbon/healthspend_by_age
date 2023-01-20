@@ -1,0 +1,11 @@
+data/**
+__pycache__
+.ipynb_checkpoints/
+*.ods
+.DS_Store
+.env
+data/database/*.db
+data/mass_prescore/specs
+play/
+.vscode/
+*.ipynb

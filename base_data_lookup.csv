@@ -1,0 +1,18 @@
+variable,value,description
+id_variable_list,dupersid,variables for record identification purposes
+id_variable_rename_list,dupersid,renaming id variables
+cohort_variable_list,"region19,age19x,sex",variables to use for creating cohorts
+cohort_variable_rename_list,"region,age,sex",renaming of cohort variables
+other_variable_list,inscov19,other variables to include
+other_variable_rename_list,ins_coverage_type,renaming of other variables
+region_filter_vals,-1_INAPPLICABLE,filter records where region variable is equal to these values
+age_filter_vals,-1,filter records where age variable is equal to these values
+ins_cov_filter_vals,"2_PUBLIC_ONLY,3_UNINSURED",filter records where ins_cov_type is equal to any of these values
+string_variable_list,"region,sex,ins_coverage_type",replace spaces with _ for values in this variable list
+all_filter_variable_list,"region,sex,ins_coverage_type",list of variables that have a filter associated with them
+all_filter_variable_val_list,"region_filter_vals,age_filter_vals,ins_cov_filter_vals",list of variables with the filtering val variables associated with them
+all_filter_variable_type_list,"string,integer,string",the type of the filtering variable
+all_health_expense_var_list,"totexp19,totprv19,totslf19,dvtexp19,dvtprv19,dvtslf19,visexp19,visprv19,visslf19",list of all expenses variables we need to pull
+all_health_expense_var_rename_list,"tot_exp,tot_exp_private,tot_exp_self,tot_dental_exp,tot_dental_private,tot_dental_self,tot_vision_exp,tot_vision_private,tot_vision_self",renaming for all the expense variables
+all_health_expense_count_list,"obdrv19,ipdis19,optotv19,ertot19,rxtot19",list of all expense count variables we need to pull
+all_health_expense_count_rename_list,"tot_office_phys_visits,tot_hos_discharges,tot_outp_prov_visits,tot_er_visits,tot_rx_fills",renaming for all the count variables
