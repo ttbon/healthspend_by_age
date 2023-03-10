@@ -2,7 +2,7 @@
 
 This repository hosts code that can be used to reproduce the analysis used in the Lumos Health article, [*How will my medical costs increase with age?*](www.google.com).
 
-To run the analysis simply open up main.ipynb with jupyter lab and run the cells.  You can run the following code to open the file.
+To run the analysis simply open up main.ipynb with jupyter lab by running the following command: ``jupyter lab main.ipynb``
 
 Overview of other files:
 - **pop_ffm_states.csv**  :  reference data on population of ffm states used to narrow down which states are used when arriving at the median health insurance premium for marketplace plans.

@@ -8,4 +8,3 @@ data/database/*.db
 data/mass_prescore/specs
 play/
 .vscode/
-*.ipynb
